@@ -1,7 +1,9 @@
 const nama = "agung alfatah";
-let hobi = "tidur";
-hobi = "makan";
 
-console.log("saya suka",hobi);
+function getNama() {
+    return nama;
+}
+
+console.log(getNama());
 
 
